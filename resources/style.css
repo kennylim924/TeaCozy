@@ -66,3 +66,14 @@ body {
   background-color: #000;
   width: 100%;
 }
+
+.item {
+  padding: 5px;
+  font-weight: bold;
+}
+
+.item img {
+  display: block;
+  height: 200px;
+  margin: 10px;
+}
