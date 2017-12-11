@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+  text-align: center;
 }
 
 /* Navigation Styling */
@@ -38,6 +39,14 @@ body {
   padding-left: 20px;
 }
 
+/* Flex styling */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 /* Main Content Styling */
 
 .main {
@@ -47,18 +56,13 @@ body {
   margin: auto;
 }
 
-.main-mission {
+#mission {
   height: 700px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
 }
 
 .content {
   margin: auto;
   background-color: #000;
-  color: seashell;
   width: 100%;
-  text-align: center;
 }
