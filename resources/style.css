@@ -74,6 +74,7 @@ footer {
 .item {
   padding: 5px;
   font-weight: bold;
+  margin: 20px 5px;
 }
 
 .item img {
