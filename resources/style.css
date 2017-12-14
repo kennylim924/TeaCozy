@@ -11,6 +11,10 @@ body {
   text-align: center;
 }
 
+footer {
+  float: left;
+}
+
 /* Navigation Styling */
 
 .navbar {
@@ -76,4 +80,20 @@ body {
   display: block;
   height: 200px;
   margin: 10px;
+}
+
+#location {
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  padding-top: 70px;
+}
+
+.locations {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-basis: 280px;
+  padding: 10px;
+  margin: 5px 20px;
 }
